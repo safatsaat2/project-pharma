@@ -9,7 +9,7 @@ import './HeroSection.css';
 
 const HeroSection = () => {
   return (
-    <div className="px-10 bg-bgPrimary srsHeroSection">
+    <section className="px-10 bg-bgPrimary srsHeroSection">
       <Swiper
         slidesPerView={1}
         spaceBetween={30}
@@ -29,7 +29,7 @@ const HeroSection = () => {
         <SwiperSlide><Items1 /></SwiperSlide>
         <SwiperSlide><Items1 /></SwiperSlide>
       </Swiper> 
-    </div>
+    </section>
   );
 };
 

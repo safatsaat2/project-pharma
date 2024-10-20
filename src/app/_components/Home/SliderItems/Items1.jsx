@@ -19,7 +19,7 @@ const Items1 = () => {
             Expertise and Care for a Better Future
           </p>
           <div className="flex items-center justify-start gap-4 mt-6">
-            <PrimaryBtn
+            <PrimaryBtn link={'/'}
               extraClass={"flex items-center gap-2"}
               label={"Shop Now"}
               icon={
@@ -37,7 +37,7 @@ const Items1 = () => {
                 </svg>
               }
             />
-            <BorderBtn label={"Top Products"}/>
+            <BorderBtn link={'/'} label={"Top Products"}/>
           </div>
         </div>
         <div>
