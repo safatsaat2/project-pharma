@@ -2,9 +2,11 @@ import React from 'react';
 
 const HeroSection = () => {
     return (
-        <section>
-            This is Hero
-        </section>
+        <div className="p-20">
+            <div className="">
+this
+            </div>
+        </div>
     );
 };
 

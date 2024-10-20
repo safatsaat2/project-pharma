@@ -1,10 +1,10 @@
-import HeroSection from "@/_components/Home/HeroSection";
-import Image from "next/image";
+import HeroSection from "@/app/_components/Home/HeroSection";
+
 
 export default function Home() {
   return (
     <>
-    <HeroSection/>
+      <HeroSection/>
     </>
   );
 }
