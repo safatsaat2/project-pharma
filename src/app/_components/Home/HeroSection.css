@@ -1,0 +1,25 @@
+.srsHeroSection .swiper-pagination {
+    bottom: 10px; display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.srsHeroSection .swiper-pagination-bullet {
+    display: block;
+    background: #004680; /* Default color of pagination bullets */
+    opacity: 0.5; /* Default opacity */
+    width: 10px; /* Default width */
+    height: 10px; /* Default height */
+    transition: width 0.3s ease, opacity 0.3s ease; /* Transition effects */
+    border-radius: 50%;
+}
+
+.srsHeroSection .swiper-pagination-bullet-active {
+    width: 20px; /* Width of active bullet */
+    opacity: 1; /* Full opacity of active bullet */
+    border-radius: 20px;
+}
