@@ -2,11 +2,11 @@ import Image from "next/image";
 import Link from "next/link";
 import PrimaryBtn from "../Buttons/PrimaryBtn";
 
-const ProductCardSm = () => {
+const ProductCardSm = ( {imgLink, ratingScore, title, link, disPrice, normalPrice}) => {
     return (
         <div className="p-2 rounded-xl border border-slate-300">
         <Image
-          src={"/images/slider_medcine.png"}
+          src={imgLink}
           width={200}
           height={200}
           className="w-full h-[200px] bg-slate-100 object-cover rounded-md"
@@ -25,15 +25,15 @@ const ProductCardSm = () => {
             />
           </svg>
 
-          <p className="text-sm font-semibold text-primary">5.0</p>
+          <p className="text-sm font-semibold text-primary">{ratingScore}</p>
         </div>
-        <Link href="/" className="text-xl font-bold text-slate-700 pt-2 block">Sunscreen Stick 250ml</Link>
+        <Link href={link} className="text-xl font-bold text-slate-700 pt-2 block">{title}</Link>
         <div className="pt-4 flex items-center justify-between gap-2">
             <div>
-                <del className="text-md text-slate-400 ">$60.00</del>
-                <span className="text-lg text-slate-700 pl-2">$20.00</span>
+                <del className="text-md text-slate-400 ">{normalPrice}</del>
+                <span className="text-lg text-slate-700 pl-2">{disPrice}</span>
             </div>
-            <PrimaryBtn link={"/"} icon={true} extraClass={"py-0 px-0 w-10 h-10 flex items-center justify-center rounded-full "}/>
+            <PrimaryBtn link={link} icon={true} extraClass={"py-0 px-0 w-10 h-10 flex items-center justify-center rounded-full "}/>
         </div>
       </div>
     );

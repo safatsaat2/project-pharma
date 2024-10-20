@@ -14,14 +14,14 @@ const TrendingProduct = () => {
           icon={true}
         />
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-3 md:gap-5 ">
-            <ProductCardSm/>
-            <ProductCardSm/>
-            <ProductCardSm/>
-            <ProductCardSm/>
-            <ProductCardSm/>
-            <ProductCardSm/>
-            <ProductCardSm/>
-            <ProductCardSm/>
+            <ProductCardSm imgLink={"/images/slider_medcine.png"} ratingScore={"5.0"} title={"Sunscreen Stick 250ml"} link={"/"} disPrice={"$20.00"} normalPrice={"$60.00"}/>
+            <ProductCardSm imgLink={"/images/slider_medcine.png"} ratingScore={"5.0"} title={"Sunscreen Stick 250ml"} link={"/"} disPrice={"$20.00"} normalPrice={"$60.00"}/>
+            <ProductCardSm imgLink={"/images/slider_medcine.png"} ratingScore={"5.0"} title={"Sunscreen Stick 250ml"} link={"/"} disPrice={"$20.00"} normalPrice={"$60.00"}/>
+            <ProductCardSm imgLink={"/images/slider_medcine.png"} ratingScore={"5.0"} title={"Sunscreen Stick 250ml"} link={"/"} disPrice={"$20.00"} normalPrice={"$60.00"}/>
+            <ProductCardSm imgLink={"/images/slider_medcine.png"} ratingScore={"5.0"} title={"Sunscreen Stick 250ml"} link={"/"} disPrice={"$20.00"} normalPrice={"$60.00"}/>
+            <ProductCardSm imgLink={"/images/slider_medcine.png"} ratingScore={"5.0"} title={"Sunscreen Stick 250ml"} link={"/"} disPrice={"$20.00"} normalPrice={"$60.00"}/>
+            <ProductCardSm imgLink={"/images/slider_medcine.png"} ratingScore={"5.0"} title={"Sunscreen Stick 250ml"} link={"/"} disPrice={"$20.00"} normalPrice={"$60.00"}/>
+            <ProductCardSm imgLink={"/images/slider_medcine.png"} ratingScore={"5.0"} title={"Sunscreen Stick 250ml"} link={"/"} disPrice={"$20.00"} normalPrice={"$60.00"}/>
         </div>
       </div>
     </section>
