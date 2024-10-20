@@ -11,7 +11,7 @@ const ProductCardSm = () => {
           height={200}
           className="w-full h-[200px] bg-slate-100 object-cover rounded-md"
         />
-        <div className="flex items-center gap-1 ">
+        <div className="flex items-center gap-1 pt-2">
           <svg
             width="14"
             height="14"
@@ -25,7 +25,7 @@ const ProductCardSm = () => {
             />
           </svg>
 
-          <p className="text-sm font-semibold pt-2 text-primary">5.0</p>
+          <p className="text-sm font-semibold text-primary">5.0</p>
         </div>
         <Link href="/" className="text-xl font-bold text-slate-700 pt-2 block">Sunscreen Stick 250ml</Link>
         <div className="pt-4 flex items-center justify-between gap-2">

@@ -15,6 +15,13 @@ const TrendingProduct = () => {
         />
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-3 md:gap-5 ">
             <ProductCardSm/>
+            <ProductCardSm/>
+            <ProductCardSm/>
+            <ProductCardSm/>
+            <ProductCardSm/>
+            <ProductCardSm/>
+            <ProductCardSm/>
+            <ProductCardSm/>
         </div>
       </div>
     </section>
