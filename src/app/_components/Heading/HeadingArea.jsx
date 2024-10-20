@@ -27,9 +27,9 @@ const HeadingArea = ({
         className={`text-sm md:text-base lg:text-md font-semibold text-primary flex items-center gap-2 ${
           linkExClass && linkExClass
         }`}
-        href={link}
+        href={link && link}
       >
-        {linkLabel}{" "}
+        {linkLabel && linkLabel}{" "}
         {icon === true ? (
           <svg
             width="8"
