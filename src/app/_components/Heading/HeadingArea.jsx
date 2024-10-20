@@ -12,7 +12,7 @@ const HeadingArea = ({
 }) => {
   return (
     <div
-      className={`flex items-center justify-between  border-b-2 border-blue-300 pb-4 ${
+      className={`flex items-center justify-between  border-b-2 border-blue-300 pb-4 mb-6 ${
         prExClass && prExClass
       }`}
     >
