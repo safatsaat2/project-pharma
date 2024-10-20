@@ -14,7 +14,10 @@ const TopSelling = () => {
           icon={true}
         />
         <div className="grid grid-cols-1 md:grid-cols-2 gap-3 md:gap-5 ">
-            <ProductCardSm imgLink={"/images/slider_medcine.png"} ratingScore={"5.0"} title={"Sunscreen Stick 250ml"} link={"/"} disPrice={"$20.00"} normalPrice={"$60.00"} prExClasses={"flex-col"} btnLabel={"Add To Cart"} btnExClasses={"flex-row-reverse px-4 py-2 w-auto h-auto gap-2 srs_big_btn_card"}/>
+            <ProductCardSm imgLink={"/images/slider_medcine.png"} ratingScore={"5.0"} title={"Sunscreen Stick 250ml"} link={"/"} disPrice={"$20.00"} normalPrice={"$60.00"} prExClasses={"!flex-row gap-5 items-center"} btnLabel={"Add To Cart"} btnExClasses={"flex-row-reverse !px-4 !py-2 w-auto h-auto gap-2 !text-base"} imgExClasses={"max-w-[200px]"}/>
+            <ProductCardSm imgLink={"/images/slider_medcine.png"} ratingScore={"5.0"} title={"Sunscreen Stick 250ml"} link={"/"} disPrice={"$20.00"} normalPrice={"$60.00"} prExClasses={"!flex-row gap-5 items-center"} btnLabel={"Add To Cart"} btnExClasses={"flex-row-reverse !px-4 !py-2 w-auto h-auto gap-2 !text-base"} imgExClasses={"max-w-[200px]"}/>
+            <ProductCardSm imgLink={"/images/slider_medcine.png"} ratingScore={"5.0"} title={"Sunscreen Stick 250ml"} link={"/"} disPrice={"$20.00"} normalPrice={"$60.00"} prExClasses={"!flex-row gap-5 items-center"} btnLabel={"Add To Cart"} btnExClasses={"flex-row-reverse !px-4 !py-2 w-auto h-auto gap-2 !text-base"} imgExClasses={"max-w-[200px]"}/>
+            <ProductCardSm imgLink={"/images/slider_medcine.png"} ratingScore={"5.0"} title={"Sunscreen Stick 250ml"} link={"/"} disPrice={"$20.00"} normalPrice={"$60.00"} prExClasses={"!flex-row gap-5 items-center"} btnLabel={"Add To Cart"} btnExClasses={"flex-row-reverse !px-4 !py-2 w-auto h-auto gap-2 !text-base"} imgExClasses={"max-w-[200px]"}/>
         </div>
       </div>
     </section>
