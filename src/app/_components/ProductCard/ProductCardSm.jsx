@@ -2,9 +2,9 @@ import Image from "next/image";
 import Link from "next/link";
 import PrimaryBtn from "../Buttons/PrimaryBtn";
 
-const ProductCardSm = ( {imgLink, ratingScore, title, link, disPrice, normalPrice}) => {
+const ProductCardSm = ( {imgLink, ratingScore, title, link, disPrice, normalPrice, prExClasses, btnLabel, btnExClasses,}) => {
     return (
-        <div className="p-2 rounded-xl border border-slate-300">
+        <div className={`p-2 rounded-xl border border-slate-300 flex flex-col   ${prExClasses}`}>
         <Image
           src={imgLink}
           width={200}
@@ -33,7 +33,7 @@ const ProductCardSm = ( {imgLink, ratingScore, title, link, disPrice, normalPric
                 <del className="text-md text-slate-400 ">{normalPrice}</del>
                 <span className="text-lg text-slate-700 pl-2">{disPrice}</span>
             </div>
-            <PrimaryBtn link={link} icon={true} extraClass={"py-0 px-0 w-10 h-10 flex items-center justify-center rounded-full "}/>
+            <PrimaryBtn label={btnLabel && btnLabel} link={link} icon={true} extraClass={`py-0 px-0 w-10 h-10 flex items-center justify-center rounded-full ${btnExClasses}`}/>
         </div>
       </div>
     );
