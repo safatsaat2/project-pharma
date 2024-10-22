@@ -13,7 +13,7 @@ const TestimonialCard = () => {
                     <h4 className='text-sm text-[#727272] font-semibold'>Author</h4>
                 </div>
             </div>
-            <p className='text-lg text-[#454545] font-medium mt-4'>
+            <p className='text-sm text-[#454545] font-medium mt-4'>
             In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to 
             </p>
             <div>
