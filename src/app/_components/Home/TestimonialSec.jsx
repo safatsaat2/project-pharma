@@ -17,7 +17,15 @@ const TestimonialSec = () => {
             <HeadingArea heading="Real People Real Opinion" link="/" />
 
             <Swiper
-        slidesPerView={3}
+         breakpoints={{
+            1024:{
+                slidesPerView: 3,
+            },
+            576: {
+              // width: 576,
+              slidesPerView: 2,
+            },
+          }}
         spaceBetween={30}
         loop={true} // Enable looping
         pagination={{

@@ -5,8 +5,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import 'swiper/css';
 import 'swiper/css/pagination';
 import 'swiper/css/navigation';
-import { Pagination, Autoplay } from 'swiper/modules';
-import TestimonialCard from "./TestimonialCard";
+import { Autoplay } from 'swiper/modules';
 import ProductCardSm from "../ProductCard/ProductCardSm";
 
 const SpecialOfferSec = () => {
@@ -15,7 +14,15 @@ const SpecialOfferSec = () => {
       <div className="max-w-screen-xl mx-auto">
         <HeadingArea heading="Special Offers For You" link="/" />
         <Swiper
-        slidesPerView={4}
+        breakpoints={{
+            1024:{
+                slidesPerView: 4,
+            },
+            576: {
+              // width: 576,
+              slidesPerView: 2,
+            },
+          }}
         spaceBetween={30}
         loop={true} // Enable looping
         autoplay={{
