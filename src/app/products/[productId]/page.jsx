@@ -4,7 +4,7 @@ const page = ({params}) => {
 
     return (
         <div>
-            This page is for single product, which is {params.productId}
+            This page is for single product.
         </div>
     );
 };
