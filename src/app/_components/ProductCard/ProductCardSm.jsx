@@ -31,8 +31,8 @@ const ProductCardSm = ( {imgLink, ratingScore, title, link, disPrice, normalPric
         <Link href={link} className="text-xl font-bold text-slate-700 pt-2 block">{title}</Link>
         <div className={`pt-4 flex items-center justify-between gap-2 ${prExClasses && "flex-col gap-4 !items-start !justify-start"}`}>
             <div>
-                <del className="text-md text-slate-400 ">{normalPrice}</del>
-                <span className="text-lg text-slate-700 pl-2">{disPrice}</span>
+                <del className="text-md text-slate-400 ">${normalPrice}</del>
+                <span className="text-lg text-slate-700 pl-2">${disPrice}</span>
             </div>
             <PrimaryBtn label={btnLabel && btnLabel} link={link} icon={true} extraClass={`py-0 px-0 w-10 h-10 flex items-center justify-center rounded-full ${btnExClasses}`}/>
         </div>

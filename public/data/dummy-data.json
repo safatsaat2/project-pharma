@@ -1,5 +1,6 @@
 [
     {
+        "id": 1,
         "name": "Paracetamol 500mg",
         "categories": [
             {
@@ -13,11 +14,12 @@
         "regularPrice": 5.00,
         "discountPrice": 4.50,
         "rating": 4.7,
-        "imageLink": "https://www.dreamteam.com/images/paracetamol-500mg.webp",
+        "imageLink": "/images/slider_medcine.png",
         "productLink": "https://www.dreamteam.com/product/paracetamol-500mg"
     },
 
     {
+        "id": 2,
         "name": "Ibuprofen 400mg",
         "categories": [
             {
@@ -31,11 +33,12 @@
         "regularPrice": 7.50,
         "discountPrice": 6.80,
         "rating": 4.6,
-        "imageLink": "https://www.dreamteam.com/images/ibuprofen-400mg.webp",
+        "imageLink": "/images/slider_medcine.png",
         "productLink": "https://www.dreamteam.com/product/ibuprofen-400mg"
     },
 
     {
+        "id": 3,
         "name": "Amoxicillin 500mg",
         "categories": [
             {
@@ -46,11 +49,12 @@
         "regularPrice": 12.00,
         "discountPrice": 10.80,
         "rating": 4.8,
-        "imageLink": "https://www.dreamteam.com/images/amoxicillin-500mg.webp",
+        "imageLink": "/images/slider_medcine.png",
         "productLink": "https://www.dreamteam.com/product/amoxicillin-500mg"
     },
 
     {
+        "id": 4,
         "name": "Cetirizine 10mg",
         "categories": [
             {
@@ -64,11 +68,12 @@
         "regularPrice": 5.00,
         "discountPrice": 4.50,
         "rating": 4.9,
-        "imageLink": "https://www.dreamteam.com/images/cetirizine-10mg.webp",
+        "imageLink": "/images/slider_medcine.png",
         "productLink": "https://www.dreamteam.com/product/cetirizine-10mg"
     },
 
     {
+        "id": 5,
         "name": "Aspirin 100mg",
         "categories": [
             {
@@ -82,11 +87,12 @@
         "regularPrice": 4.00,
         "discountPrice": 3.50,
         "rating": 4.5,
-        "imageLink": "https://www.dreamteam.com/images/aspirin-100mg.webp",
+        "imageLink": "/images/slider_medcine.png",
         "productLink": "https://www.dreamteam.com/product/aspirin-100mg"
     },
 
     {
+        "id": 6,
         "name": "Metformin 500mg",
         "categories": [
             {
@@ -97,11 +103,12 @@
         "regularPrice": 9.00,
         "discountPrice": 8.10,
         "rating": 4.7,
-        "imageLink": "https://www.dreamteam.com/images/metformin-500mg.webp",
+        "imageLink": "/images/slider_medcine.png",
         "productLink": "https://www.dreamteam.com/product/metformin-500mg"
     },
 
     {
+        "id": 7,
         "name": "Atorvastatin 20mg",
         "categories": [
             {
@@ -112,11 +119,12 @@
         "regularPrice": 10.00,
         "discountPrice": 9.00,
         "rating": 4.8,
-        "imageLink": "https://www.dreamteam.com/images/atorvastatin-20mg.webp",
+        "imageLink": "/images/slider_medcine.png",
         "productLink": "https://www.dreamteam.com/product/atorvastatin-20mg"
     },
 
     {
+        "id": 8,
         "name": "Omeprazole 20mg",
         "categories": [
             {
@@ -130,11 +138,12 @@
         "regularPrice": 6.50,
         "discountPrice": 5.85,
         "rating": 4.6,
-        "imageLink": "https://www.dreamteam.com/images/omeprazole-20mg.webp",
+        "imageLink": "/images/slider_medcine.png",
         "productLink": "https://www.dreamteam.com/product/omeprazole-20mg"
     },
 
     {
+        "id": 9,
         "name": "Losartan 50mg",
         "categories": [
             {
@@ -145,11 +154,12 @@
         "regularPrice": 8.50,
         "discountPrice": 7.65,
         "rating": 4.7,
-        "imageLink": "https://www.dreamteam.com/images/losartan-50mg.webp",
+        "imageLink": "/images/slider_medcine.png",
         "productLink": "https://www.dreamteam.com/product/losartan-50mg"
     },
 
     {
+        "id": 10,
         "name": "Loratadine 10mg",
         "categories": [
             {
@@ -163,11 +173,12 @@
         "regularPrice": 4.50,
         "discountPrice": 4.05,
         "rating": 4.8,
-        "imageLink": "https://www.dreamteam.com/images/loratadine-10mg.webp",
+        "imageLink": "/images/slider_medcine.png",
         "productLink": "https://www.dreamteam.com/product/loratadine-10mg"
     },
 
     {
+        "id": 11,
         "name": "Clopidogrel 75mg",
         "categories": [
             {
@@ -178,11 +189,12 @@
         "regularPrice": 15.00,
         "discountPrice": 13.50,
         "rating": 4.7,
-        "imageLink": "https://www.dreamteam.com/images/clopidogrel-75mg.webp",
+        "imageLink": "/images/slider_medcine.png",
         "productLink": "https://www.dreamteam.com/product/clopidogrel-75mg"
     },
 
     {
+        "id": 12,
         "name": "Simvastatin 40mg",
         "categories": [
             {
@@ -193,11 +205,12 @@
         "regularPrice": 11.00,
         "discountPrice": 9.90,
         "rating": 4.5,
-        "imageLink": "https://www.dreamteam.com/images/simvastatin-40mg.webp",
+        "imageLink": "/images/slider_medcine.png",
         "productLink": "https://www.dreamteam.com/product/simvastatin-40mg"
     },
 
     {
+        "id": 13,
         "name": "Pantoprazole 40mg",
         "categories": [
             {
@@ -208,11 +221,12 @@
         "regularPrice": 7.00,
         "discountPrice": 6.30,
         "rating": 4.8,
-        "imageLink": "https://www.dreamteam.com/images/pantoprazole-40mg.webp",
+        "imageLink": "/images/slider_medcine.png",
         "productLink": "https://www.dreamteam.com/product/pantoprazole-40mg"
     },
 
     {
+        "id": 14,
         "name": "Hydrochlorothiazide 25mg",
         "categories": [
             {
@@ -226,11 +240,12 @@
         "regularPrice": 5.50,
         "discountPrice": 4.95,
         "rating": 4.6,
-        "imageLink": "https://www.dreamteam.com/images/hydrochlorothiazide-25mg.webp",
+        "imageLink": "/images/slider_medcine.png",
         "productLink": "https://www.dreamteam.com/product/hydrochlorothiazide-25mg"
     },
 
     {
+        "id": 15,
         "name": "Gabapentin 300mg",
         "categories": [
             {
@@ -241,11 +256,12 @@
         "regularPrice": 14.00,
         "discountPrice": 12.60,
         "rating": 4.9,
-        "imageLink": "https://www.dreamteam.com/images/gabapentin-300mg.webp",
+        "imageLink": "/images/slider_medcine.png",
         "productLink": "https://www.dreamteam.com/product/gabapentin-300mg"
     },
 
     {
+        "id": 16,
         "name": "Ciprofloxacin 500mg",
         "categories": [
             {
@@ -256,10 +272,11 @@
         "regularPrice": 9.00,
         "discountPrice": 8.10,
         "rating": 4.8,
-        "imageLink": "https://www.dreamteam.com/images/ciprofloxacin-500mg.webp"
+        "imageLink": "/images/slider_medcine.png"
     },
 
     {
+        "id":17,
         "name": "Diphenhydramine 25mg",
         "categories": [
             {
@@ -273,11 +290,12 @@
         "regularPrice": 6.00,
         "discountPrice": 5.40,
         "rating": 4.4,
-        "imageLink": "https://www.dreamteam.com/images/diphenhydramine-25mg.webp",
+        "imageLink": "/images/slider_medcine.png",
         "productLink": "https://www.dreamteam.com/product/diphenhydramine-25mg"
     },
 
     {
+        "id": 18,
         "name": "Levothyroxine 50mcg",
         "categories": [
             {
@@ -288,11 +306,12 @@
         "regularPrice": 10.00,
         "discountPrice": 9.00,
         "rating": 4.8,
-        "imageLink": "https://www.dreamteam.com/images/levothyroxine-50mcg.webp",
+        "imageLink": "/images/slider_medcine.png",
         "productLink": "https://www.dreamteam.com/product/levothyroxine-50mcg"
     },
 
     {
+        "id": 19,
         "name": "Furosemide 40mg",
         "categories": [
             {
@@ -306,11 +325,12 @@
         "regularPrice": 5.00,
         "discountPrice": 4.50,
         "rating": 4.7,
-        "imageLink": "https://www.dreamteam.com/images/furosemide-40mg.webp",
+        "imageLink": "/images/slider_medcine.png",
         "productLink": "https://www.dreamteam.com/product/furosemide-40mg"
     },
     
     {
+        "id": 20,
         "name": "Tamsulosin 0.4mg",
         "categories": [
             {
@@ -321,7 +341,7 @@
         "regularPrice": 8.00,
         "discountPrice": 7.20,
         "rating": 4.6,
-        "imageLink": "https://www.dreamteam.com/images/tamsulosin-0.4mg.webp",
+        "imageLink": "/images/slider_medcine.png",
         "productLink": "https://www.dreamteam.com/product/tamsulosin-0.4mg"
     }
 ]
