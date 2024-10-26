@@ -11,6 +11,15 @@ const TopDiscount = () => {
     return ((regularPrice - discountPrice) / regularPrice) * 100;
   };
 
+   // Prepare the products with discount percentage
+   const sortedProducts = productsData
+   .map((product) => ({
+     ...product,
+     discountPercentage: calculateDiscountPercentage(product.regularPrice, product.discountPrice),
+   }))
+   .sort((a, b) => b.discountPercentage - a.discountPercentage) 
+   .slice(0, 3); 
+
   return (
     <div className="px-10 srsTopDiscountSection py-10 lg:py-20">
       <div className="max-w-screen-xl mx-auto">
