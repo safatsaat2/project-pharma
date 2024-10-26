@@ -1,0 +1,327 @@
+[
+    {
+        "name": "Paracetamol 500mg",
+        "categories": [
+            {
+                "name": "Pain Relief"
+            },
+            {
+                "name": "Fever"
+            }
+        ],
+        "description": "Paracetamol is used to treat mild to moderate pain and reduce fever.",
+        "regularPrice": 5.00,
+        "discountPrice": 4.50,
+        "rating": 4.7,
+        "imageLink": "https://www.dreamteam.com/images/paracetamol-500mg.webp",
+        "productLink": "https://www.dreamteam.com/product/paracetamol-500mg"
+    },
+
+    {
+        "name": "Ibuprofen 400mg",
+        "categories": [
+            {
+                "name": "Pain Relief"
+            },
+            {
+                "name": "Anti-Inflammatory"
+            }
+        ],
+        "description": "Ibuprofen is used to treat pain, inflammation, and reduce fever.",
+        "regularPrice": 7.50,
+        "discountPrice": 6.80,
+        "rating": 4.6,
+        "imageLink": "https://www.dreamteam.com/images/ibuprofen-400mg.webp",
+        "productLink": "https://www.dreamteam.com/product/ibuprofen-400mg"
+    },
+
+    {
+        "name": "Amoxicillin 500mg",
+        "categories": [
+            {
+                "name": "Antibiotic"
+            }
+        ],
+        "description": "Amoxicillin is an antibiotic used to treat bacterial infections.",
+        "regularPrice": 12.00,
+        "discountPrice": 10.80,
+        "rating": 4.8,
+        "imageLink": "https://www.dreamteam.com/images/amoxicillin-500mg.webp",
+        "productLink": "https://www.dreamteam.com/product/amoxicillin-500mg"
+    },
+
+    {
+        "name": "Cetirizine 10mg",
+        "categories": [
+            {
+                "name": "Allergy"
+            },
+            {
+                "name": "Antihistamine"
+            }
+        ],
+        "description": "Cetirizine is used to treat allergy symptoms such as runny nose and itching.",
+        "regularPrice": 5.00,
+        "discountPrice": 4.50,
+        "rating": 4.9,
+        "imageLink": "https://www.dreamteam.com/images/cetirizine-10mg.webp",
+        "productLink": "https://www.dreamteam.com/product/cetirizine-10mg"
+    },
+
+    {
+        "name": "Aspirin 100mg",
+        "categories": [
+            {
+                "name": "Pain Relief"
+            },
+            {
+                "name": "Blood Thinner"
+            }
+        ],
+        "description": "Aspirin is used to reduce pain and thin blood to prevent clotting.",
+        "regularPrice": 4.00,
+        "discountPrice": 3.50,
+        "rating": 4.5,
+        "imageLink": "https://www.dreamteam.com/images/aspirin-100mg.webp",
+        "productLink": "https://www.dreamteam.com/product/aspirin-100mg"
+    },
+
+    {
+        "name": "Metformin 500mg",
+        "categories": [
+            {
+                "name": "Diabetes"
+            }
+        ],
+        "description": "Metformin helps to control blood sugar levels in type 2 diabetes.",
+        "regularPrice": 9.00,
+        "discountPrice": 8.10,
+        "rating": 4.7,
+        "imageLink": "https://www.dreamteam.com/images/metformin-500mg.webp",
+        "productLink": "https://www.dreamteam.com/product/metformin-500mg"
+    },
+
+    {
+        "name": "Atorvastatin 20mg",
+        "categories": [
+            {
+                "name": "Cholesterol"
+            }
+        ],
+        "description": "Atorvastatin lowers cholesterol and triglyceride levels in the blood.",
+        "regularPrice": 10.00,
+        "discountPrice": 9.00,
+        "rating": 4.8,
+        "imageLink": "https://www.dreamteam.com/images/atorvastatin-20mg.webp",
+        "productLink": "https://www.dreamteam.com/product/atorvastatin-20mg"
+    },
+
+    {
+        "name": "Omeprazole 20mg",
+        "categories": [
+            {
+                "name": "Acid Reflux"
+            },
+            {
+                "name": "Stomach Ulcers"
+            }
+        ],
+        "description": "Omeprazole is used to treat acid reflux and stomach ulcers.",
+        "regularPrice": 6.50,
+        "discountPrice": 5.85,
+        "rating": 4.6,
+        "imageLink": "https://www.dreamteam.com/images/omeprazole-20mg.webp",
+        "productLink": "https://www.dreamteam.com/product/omeprazole-20mg"
+    },
+
+    {
+        "name": "Losartan 50mg",
+        "categories": [
+            {
+                "name": "Blood Pressure"
+            }
+        ],
+        "description": "Losartan is used to treat high blood pressure and protect the kidneys from damage due to diabetes.",
+        "regularPrice": 8.50,
+        "discountPrice": 7.65,
+        "rating": 4.7,
+        "imageLink": "https://www.dreamteam.com/images/losartan-50mg.webp",
+        "productLink": "https://www.dreamteam.com/product/losartan-50mg"
+    },
+
+    {
+        "name": "Loratadine 10mg",
+        "categories": [
+            {
+                "name": "Allergy"
+            },
+            {
+                "name": "Antihistamine"
+            }
+        ],
+        "description": "Loratadine is used to relieve allergy symptoms like itching, runny nose, and watery eyes.",
+        "regularPrice": 4.50,
+        "discountPrice": 4.05,
+        "rating": 4.8,
+        "imageLink": "https://www.dreamteam.com/images/loratadine-10mg.webp",
+        "productLink": "https://www.dreamteam.com/product/loratadine-10mg"
+    },
+
+    {
+        "name": "Clopidogrel 75mg",
+        "categories": [
+            {
+                "name": "Blood Thinner"
+            }
+        ],
+        "description": "Clopidogrel is used to prevent blood clots in patients with heart disease.",
+        "regularPrice": 15.00,
+        "discountPrice": 13.50,
+        "rating": 4.7,
+        "imageLink": "https://www.dreamteam.com/images/clopidogrel-75mg.webp",
+        "productLink": "https://www.dreamteam.com/product/clopidogrel-75mg"
+    },
+
+    {
+        "name": "Simvastatin 40mg",
+        "categories": [
+            {
+                "name": "Cholesterol"
+            }
+        ],
+        "description": "Simvastatin is used to lower cholesterol and triglyceride levels in the blood.",
+        "regularPrice": 11.00,
+        "discountPrice": 9.90,
+        "rating": 4.5,
+        "imageLink": "https://www.dreamteam.com/images/simvastatin-40mg.webp",
+        "productLink": "https://www.dreamteam.com/product/simvastatin-40mg"
+    },
+
+    {
+        "name": "Pantoprazole 40mg",
+        "categories": [
+            {
+                "name": "Acid Reflux"
+            }
+        ],
+        "description": "Pantoprazole is used to treat stomach ulcers and gastroesophageal reflux disease (GERD).",
+        "regularPrice": 7.00,
+        "discountPrice": 6.30,
+        "rating": 4.8,
+        "imageLink": "https://www.dreamteam.com/images/pantoprazole-40mg.webp",
+        "productLink": "https://www.dreamteam.com/product/pantoprazole-40mg"
+    },
+
+    {
+        "name": "Hydrochlorothiazide 25mg",
+        "categories": [
+            {
+                "name": "Diuretic"
+            },
+            {
+                "name": "Blood Pressure"
+            }
+        ],
+        "description": "Hydrochlorothiazide is a diuretic used to treat high blood pressure and fluid retention.",
+        "regularPrice": 5.50,
+        "discountPrice": 4.95,
+        "rating": 4.6,
+        "imageLink": "https://www.dreamteam.com/images/hydrochlorothiazide-25mg.webp",
+        "productLink": "https://www.dreamteam.com/product/hydrochlorothiazide-25mg"
+    },
+
+    {
+        "name": "Gabapentin 300mg",
+        "categories": [
+            {
+                "name": "Nerve Pain"
+            }
+        ],
+        "description": "Gabapentin is used to treat nerve pain and seizures.",
+        "regularPrice": 14.00,
+        "discountPrice": 12.60,
+        "rating": 4.9,
+        "imageLink": "https://www.dreamteam.com/images/gabapentin-300mg.webp",
+        "productLink": "https://www.dreamteam.com/product/gabapentin-300mg"
+    },
+
+    {
+        "name": "Ciprofloxacin 500mg",
+        "categories": [
+            {
+                "name": "Antibiotic"
+            }
+        ],
+        "description": "Ciprofloxacin is an antibiotic used to treat bacterial infections.",
+        "regularPrice": 9.00,
+        "discountPrice": 8.10,
+        "rating": 4.8,
+        "imageLink": "https://www.dreamteam.com/images/ciprofloxacin-500mg.webp"
+    },
+
+    {
+        "name": "Diphenhydramine 25mg",
+        "categories": [
+            {
+                "name": "Allergy"
+            },
+            {
+                "name": "Antihistamine"
+            }
+        ],
+        "description": "Diphenhydramine is used to relieve symptoms of allergy, hay fever, and the common cold.",
+        "regularPrice": 6.00,
+        "discountPrice": 5.40,
+        "rating": 4.4,
+        "imageLink": "https://www.dreamteam.com/images/diphenhydramine-25mg.webp",
+        "productLink": "https://www.dreamteam.com/product/diphenhydramine-25mg"
+    },
+
+    {
+        "name": "Levothyroxine 50mcg",
+        "categories": [
+            {
+                "name": "Thyroid"
+            }
+        ],
+        "description": "Levothyroxine is used to treat hypothyroidism (low thyroid hormone).",
+        "regularPrice": 10.00,
+        "discountPrice": 9.00,
+        "rating": 4.8,
+        "imageLink": "https://www.dreamteam.com/images/levothyroxine-50mcg.webp",
+        "productLink": "https://www.dreamteam.com/product/levothyroxine-50mcg"
+    },
+
+    {
+        "name": "Furosemide 40mg",
+        "categories": [
+            {
+                "name": "Diuretic"
+            },
+            {
+                "name": "Blood Pressure"
+            }
+        ],
+        "description": "Furosemide is a diuretic used to treat fluid retention and high blood pressure.",
+        "regularPrice": 5.00,
+        "discountPrice": 4.50,
+        "rating": 4.7,
+        "imageLink": "https://www.dreamteam.com/images/furosemide-40mg.webp",
+        "productLink": "https://www.dreamteam.com/product/furosemide-40mg"
+    },
+    
+    {
+        "name": "Tamsulosin 0.4mg",
+        "categories": [
+            {
+                "name": "BPH"
+            }
+        ],
+        "description": "Tamsulosin is used to treat symptoms of an enlarged prostate (BPH).",
+        "regularPrice": 8.00,
+        "discountPrice": 7.20,
+        "rating": 4.6,
+        "imageLink": "https://www.dreamteam.com/images/tamsulosin-0.4mg.webp",
+        "productLink": "https://www.dreamteam.com/product/tamsulosin-0.4mg"
+    }
+]
