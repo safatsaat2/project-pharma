@@ -1,8 +1,16 @@
 import React from "react";
 import HeadingArea from "../Heading/HeadingArea";
 import TopDiscountCard from "../ProductCard/TopDiscountCard";
+import { useProducts } from "@/app/Providers/ProductsProvider";
 
 const TopDiscount = () => {
+  const { productsData } = useProducts();
+
+  // Function to calculate discount percentage
+  const calculateDiscountPercentage = (regularPrice, discountPrice) => {
+    return ((regularPrice - discountPrice) / regularPrice) * 100;
+  };
+
   return (
     <div className="px-10 srsTopDiscountSection py-10 lg:py-20">
       <div className="max-w-screen-xl mx-auto">
@@ -10,7 +18,6 @@ const TopDiscount = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 md:grid-rows-2 gap-3 md:gap-5">
           <TopDiscountCard percentageDis={"25"} title={"Black Garlic Oil"} link={"/"} description={"Stronger and thicker hair with black garlic"} disPrice={"20.00"} normalPrice={"60.00"} imgLink={"/images/slider_medcine.png"} imgExtraClasses={"max-h-full"} extraClass={"items-stretch  "} textExClasses={'self-center'}/>
           <TopDiscountCard percentageDis={"25"} title={"Black Garlic Oil"} link={"/"} description={"Stronger and thicker hair with black garlic"} disPrice={"20.00"} normalPrice={"60.00"} imgLink={"/images/slider_medcine.png"}  extraClass={"row-span-1"}/>
-          <TopDiscountCard percentageDis={"25"} title={"Black Garlic Oil"} link={"/"} description={"Stronger and thicker hair with black garlic"} disPrice={"20.00"} normalPrice={"60.00"} imgLink={"/images/slider_medcine.png"} extraClass={"row-span-1"} />
         </div>
       </div>
     </div>
