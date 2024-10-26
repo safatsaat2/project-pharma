@@ -1,32 +1,15 @@
-"use client";
 
-import React, { useEffect, useState } from "react";
+"use client"
+
+import { useProducts } from "@/app/Providers/ProductsProvider";
 import HeadingArea from "../Heading/HeadingArea";
 import ProductCardSm from "../ProductCard/ProductCardSm";
 import "./TopSelling.css";
 
 const TopSelling = () => {
-  const [products, setProducts] = useState([]);
-  const [loading, setLoading] = useState(true);
+    const {productsData} = useProducts();
 
-  useEffect(() => {
-    const fetchData = async () => {
-      try {
-        const response = await fetch("/data/dummy-data.json");
-        if (!response.ok) throw new Error("Failed to fetch data");
-        const data = await response.json();
-        setProducts(data);
-      } catch (error) {
-        console.error("Error fetching data:", error);
-      } finally {
-        setLoading(false);
-      }
-    };
 
-    fetchData();
-  }, []);
-
-  if (loading) return <p>Loading...</p>;
 
   return (
     <section className="px-10 srsTrendingSection py-10 lg:py-20">
@@ -38,7 +21,7 @@ const TopSelling = () => {
           icon={true}
         />
         <div className="grid grid-cols-1 md:grid-cols-2 gap-3 md:gap-5 ">
-          {products
+          {productsData
             .sort((a, b) => b.rating - a.rating) 
             .slice(0, 8) 
             .map((product) => (
