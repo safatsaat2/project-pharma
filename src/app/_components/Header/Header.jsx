@@ -5,35 +5,35 @@ import React from "react";
 const Header = () => {
   return (
     <div className="">
-      <div className="flex justify-between max-w-7xl mx-auto px-3">
+      <div className="flex justify-between items-center max-w-7xl mx-auto px-3 py-3">
         <div>
-          <Image src="/images/placeholder.webp" alt="Logo" />
+          <Image width={"100"} height={"60"} src="/images/placeholder.webp" alt="Logo" />
         </div>
         <nav>
-          <ul>
+          <ul className="flex items-center gap-4 ">
             <li>
-              <Link>Home</Link>
+              <Link href="/">Home</Link>
             </li>
             <li>
-              <Link>About</Link>
+              <Link href="/">About</Link>
             </li>
             <li>
-              <Link>Products</Link>
+              <Link href="/">Products</Link>
             </li>
             <li>
-              <Link>Contact</Link>
+              <Link href="/">Contact</Link>
             </li>
             <li>
-              <Link>Sale</Link>
+              <Link href="/">Sale</Link>
             </li>
           </ul>
         </nav>
-        <div>
+        <div className="flex gap-4">
           <button>
-            <Link>Dashboard</Link>
+            <Link href="/">Dashboard</Link>
           </button>
           <button>
-            <Link>Cart</Link>
+            <Link href="/">Cart</Link>
           </button>
         </div>
       </div>
